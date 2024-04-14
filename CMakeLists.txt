@@ -259,11 +259,11 @@ endif()
 
 target_link_libraries(freertos_kernel
     PUBLIC
+        freertos_config
         freertos_kernel_include
         freertos_kernel_port_headers
     PRIVATE
         freertos_kernel_port
-
 )
 
 ########################################################################
